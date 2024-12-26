@@ -1,0 +1,6 @@
+C:\Users\imadk\source\repos\Market\Storage\bin\Debug\Storage.dll
+C:\Users\imadk\source\repos\Market\Storage\bin\Debug\Storage.pdb
+C:\Users\imadk\source\repos\Market\Storage\obj\Debug\Storage.csproj.AssemblyReference.cache
+C:\Users\imadk\source\repos\Market\Storage\obj\Debug\Storage.csproj.CoreCompileInputs.cache
+C:\Users\imadk\source\repos\Market\Storage\obj\Debug\Storage.dll
+C:\Users\imadk\source\repos\Market\Storage\obj\Debug\Storage.pdb

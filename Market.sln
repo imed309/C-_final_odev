@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35425.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market", "Market\Market.csproj", "{01F05607-2E5D-4F82-B5D6-D0913BD1F065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{218EBB21-DE55-4D7F-9A55-13CE88838DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F05607-2E5D-4F82-B5D6-D0913BD1F065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F05607-2E5D-4F82-B5D6-D0913BD1F065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F05607-2E5D-4F82-B5D6-D0913BD1F065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F05607-2E5D-4F82-B5D6-D0913BD1F065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218EBB21-DE55-4D7F-9A55-13CE88838DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218EBB21-DE55-4D7F-9A55-13CE88838DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218EBB21-DE55-4D7F-9A55-13CE88838DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218EBB21-DE55-4D7F-9A55-13CE88838DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01F05CD7-2B3F-4E55-AA7A-1FD9AC1C487B}
+	EndGlobalSection
+EndGlobal

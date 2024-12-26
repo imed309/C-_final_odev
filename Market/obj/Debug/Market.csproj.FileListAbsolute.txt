@@ -1,0 +1,10 @@
+C:\Users\imadk\source\repos\Market\Market\bin\Debug\Market.exe.config
+C:\Users\imadk\source\repos\Market\Market\bin\Debug\Market.exe
+C:\Users\imadk\source\repos\Market\Market\bin\Debug\Market.pdb
+C:\Users\imadk\source\repos\Market\Market\bin\Debug\Storage.dll
+C:\Users\imadk\source\repos\Market\Market\bin\Debug\Storage.pdb
+C:\Users\imadk\source\repos\Market\Market\obj\Debug\Market.csproj.AssemblyReference.cache
+C:\Users\imadk\source\repos\Market\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+C:\Users\imadk\source\repos\Market\Market\obj\Debug\Market.csproj.CopyComplete
+C:\Users\imadk\source\repos\Market\Market\obj\Debug\Market.exe
+C:\Users\imadk\source\repos\Market\Market\obj\Debug\Market.pdb
