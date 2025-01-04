@@ -11,7 +11,8 @@ namespace Market
     {
         static void Main(string[] args)
         {
-            Inventory inventory = new Inventory();
+            FileStorageRepository repository = new FileStorageRepository();
+            Inventory inventory = new Inventory(repository);
             bool running = true;
 
             while (running)
@@ -35,7 +36,16 @@ namespace Market
                         AddNonPerishableItem(inventory);
                         break;
                     case "3":
-                        inventory.DisplayItems();
+                        Result<string> displayResult = inventory.DisplayItems();
+
+                        if (displayResult.IsSuccess)
+                        {
+                            Console.WriteLine(displayResult.Data);
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Error: {displayResult.Message}");
+                        }
                         break;
                     case "4":
                         UpdateItemQuantity(inventory);
@@ -51,6 +61,7 @@ namespace Market
 
                 if (running)
                 {
+                    repository.SaveAll(inventory.GetItems().Data);
                     Console.WriteLine("\nPress Enter to continue...");
                     Console.ReadLine();
                 }
